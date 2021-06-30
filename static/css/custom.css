@@ -1,0 +1,14 @@
+@import url("screen.css"); /* default gitit screen styles */
+@import url("highlighting.css"); /* for syntax highlighting */
+
+/* Put your custom style modifications here: */
+
+table, th, td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
